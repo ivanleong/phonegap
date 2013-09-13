@@ -1,0 +1,216 @@
+    *{margin: 0;}
+	
+	body{
+		 background-image: url(/image/wood-background.jpg);
+         background-position: center;
+         background-repeat:repeat;
+         background-color:black;
+		 text-decoration:none;
+         
+	}
+    
+    @font-face{font-family: LeagueGothic; src: url('League Gothic.otf'); }
+    @font-face{font-family: Bebas; src: url('/font/Bebas.otf'); }
+    @font-face{font-family: NewPressEroded; src: url('/font/New Press Eroded.ttf'); }
+    @font-face{font-family: TwentyDaysLater; src: url('/font/28 Days Later.ttf'); }
+    @font-face{font-family: FailFont; src: url('/font/Fail.TTF'); }
+    @font-face{font-family: BirthOfAHero; src: url('/font/BIRTH_OF_A_HERO.ttf'); }
+    
+    h1{
+          font-family: BirthOfAHero ,serif;
+          font-size:110px;
+          font-weight:100;
+          color: white;/*#c0ff9a*/
+     }
+    
+    h2{
+          font-family: BirthOfAHero,serif;
+          font-size:30px;
+          color:#ccc;
+    }
+    
+    h3{
+          font-family: arial, sans-serif;
+          color:white;
+     }
+    
+    #header{ 
+         height:200px;
+         width:100%;
+         background-image:url(footer-background.png);
+         background-repeat:repeat-x;
+         border-bottom: 2px solid #222;
+    }
+    
+    #header-wrapper{ 
+         width: 1300px;
+         height: 100px;
+         margin: 0 auto;
+         text-align:center;
+    }
+    
+	.facebook{
+		position: fixed;
+	}
+	
+    #wrapper{
+         width: 1300px;
+         height: 800px;
+         /*border: 4px solid white;*/
+         margin: 0 auto;
+     }
+     
+     #home-image{
+         position: absolute;
+         width: 100%;
+         left:50%;
+         margin-left:-50%;
+         text-align:center;
+         z-index:-1;
+     }
+     #logo{ 
+         
+         margin: 0 auto;
+         padding-top:25px;
+         margin-left: 35px;
+     }
+     
+     #logo img{ 
+        height:170px;
+        width:170px;
+     }
+	 
+     #menu{
+         position:absolute;
+         height:90px;
+         padding-top: 50px;
+         /*
+         background-image: url(/image/wood-menubanner.png);
+         border: 3px solid pink;*/
+     }
+     
+     #menu li{
+         list-style:none;
+	     margin-right: 18px;
+         font: bold 1.6em veranda, sans-serif;
+         text-align:right;
+         padding-top:5px;
+     }
+     
+     #menu li a{
+         text-transform:uppercase;
+         text-decoration:none;
+         color:white;
+     }
+     
+     #menu li a:hover{
+         color:#888;
+     }
+     
+     #page-header{
+         position:absolute;
+         font: 0.8em veranda, sans-serif;
+         color:#ccc;
+         padding:10px;
+         margin-top:10px;
+         margin-left:35px;
+         width:500px;
+     }
+     
+     #social{ 
+         position:absolute;
+         margin-top: 700px; /*390*/
+         margin-left: 35px;
+     }
+     
+     #social p { 
+         padding-left:5px;
+         font: 100% arial, sans-serif;
+         font-weight:bold;
+         color:#ccc;
+     }
+     
+     #social div{ 
+         float:left;
+         margin-top:5px;
+         margin-right:10px;
+     }
+     
+     #social #fb{
+         background: url(/image/facebook.png) no-repeat 0 0;
+         background-position:0px -51px;
+         height:51px;
+         width:50px;
+     }
+     
+     #social #twitter{
+         background: url(/image/twitter.png) no-repeat 0 0;
+         background-position:0px -51px;
+         height:51px;
+         width:50px;
+     }
+     
+      #social #google{
+         background: url(/image/google.png) no-repeat 0 0;
+         background-position:0px -51px;
+         height:51px;
+         width:50px;
+     }
+     
+     #social #fb:hover{ 
+         background-position: 0 0px;
+     }
+     
+     #social #twitter:hover{ 
+         background-position: 0 0px;
+     }
+     
+     #social #google:hover{ 
+         background-position: 0 0px;
+     }
+     
+     #content{
+         margin-left:255px;
+	     margin-top:45px;
+         margin-bottom:100px;
+         background: rgba(0,0,0,0.5);
+         padding:10px;
+         padding-left:20px;
+         padding-bottom:40px;
+         width:800px;
+         position:absolute;
+         color:white; 
+         font: 80% Georgia,sans-serif;
+         word-spacing:2px;
+	}
+    
+    /*
+    #content h2{ 
+         color:#ccc;
+     }*/
+    
+    #content a{ 
+         text-decoration:none;
+    }
+    
+    #footer{ 
+         height:100px;
+         width:100%;
+         background-image:url(footer-background.png);
+         background-repeat:repeat-x;
+         border-top: 2px solid #222;
+    }
+    
+    #footer-wrapper{ 
+         width: 1300px;
+         height: 100px;
+         margin: 0 auto;
+    }
+    
+    #copyright{ 
+         padding-left:35px;
+         padding-top:65px;
+         font: 70% arial, sans-serif;
+         color: #fff;
+    }
+ 
